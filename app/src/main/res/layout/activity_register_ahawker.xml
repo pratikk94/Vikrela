@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterAHawker"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="300dp">
+
+
+            <ImageView
+                android:src="@drawable/generic_profile_pic"
+                android:id="@+id/registration_profile_picture_while_sign_up"
+                android:scaleType="fitXY"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:ems="20" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20dp"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/Gender"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:id="@+id/Male"
+                />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:id="@+id/Female"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Widow"
+                android:id="@+id/Widow"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Widower"
+                android:id="@+id/Widower"
+                />
+
+        </RadioGroup>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_complete_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_complete_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Complete permenant address"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:ems="1000" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile number"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:inputType="number"
+                android:ems="20" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resedential Proof"
+            android:textSize="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/proof"
+            android:id="@+id/spinner_for_resedential_address"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id Proof"
+            android:textSize="20dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/proof"
+            android:id="@+id/spinner_for_id_proof"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handicap"
+            android:textSize="20dp"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+            >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:id="@+id/handicap_yes"
+            />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:id="@+id/handicap_no"
+            />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buisness type"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/caste"
+            android:id="@+id/spinner_for_caste"
+            />
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_period"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_period"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Period "
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:inputType="number"
+                android:ems="150" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_time_from_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_time_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Time from"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:inputType="time"
+                android:ems="150" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_time_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_time_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Time to"
+                android:textSize="20dp"
+                android:textColor="@color/colorAccent"
+                android:inputType="time"
+                android:ems="150" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buisness type"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_for_buisness_type"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:scrollbarSize="20dp"
+            android:textSize="20dp"
+            android:entries="@array/buisness_type"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Style"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fixed"
+                android:id="@+id/style_fixed"
+                />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not fixed"
+                android:id="@+id/style_not_fixed"
+                />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Submit"
+            android:id="@+id/btn_sign_up"
+            />
+
+    </LinearLayout>
+</ScrollView>

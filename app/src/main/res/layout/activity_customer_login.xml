@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="40dip"
+        android:background="@drawable/abc_alpha_et_background"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawablePadding="10dip"
+        android:hint="@string/name"
+        android:padding="10dip"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/txtMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/abc_alpha_et_background"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="10dip"
+        android:hint="@string/mobile"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="10dip"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etPincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/abc_alpha_et_background"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="10dip"
+        android:hint="@string/pincode"
+        android:inputType="number"
+        android:maxLength="6"
+        android:padding="10dip"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="45dip"
+        android:background="@drawable/abc_alpha_btn_background"
+        android:padding="10dip"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSkipLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginTop="45dip"
+        android:gravity="center"
+        android:text="@string/skip_login"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</LinearLayout>

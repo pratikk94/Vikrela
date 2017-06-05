@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Vikrela</string>
+    <string name="nmc">NMC</string>
+    <string name="customer">Customer</string>
+    <string name="no_internet">No Internet!!</string>
+    <string name="ok">Ok</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="area">Area</string>
+    <string name="login">Login</string>
+    <string name="skip_login">Skip</string>
+    <string name="submit">Submit</string>
+    <string name="preferences">Mark your Preferences</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="fruits">Fruits</string>
+    <string name="dummy_text">Dummy</string>
+    <string name="select_prefs">Select the items you like</string>
+    <string name="pincode">PinCode</string>
+    <string name="customer_details">Your details</string>
+    <string name="date">Date</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="invalid_date">This Day is yet to come!!</string>
+    <string name="license">Enter Hawker License Number</string>
+    <string name="scanQR">Scan QR Code</string>
+
+    <string-array name="proof">
+        <item>Pan</item>
+        <item>Adhar</item>
+        <item>Resedential</item>
+        <item>BPL</item>
+    </string-array>
+
+    <string-array name = "caste">
+        <item>NT</item>
+        <item>ST</item>
+        <item>SC</item>
+        <item>OBC</item>
+        <item>Open</item>
+    </string-array>
+
+    <string-array name = "buisness_type">
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Tea</item>
+        <item>Pan bidi</item>
+        <item>FLower</item>
+    </string-array>
+
+
+</resources>

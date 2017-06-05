@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage1"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage2"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage1"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage3"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage2"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage4"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage1"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage5"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage1"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage4"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage6"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage1"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage5"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage7"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage4"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage8"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage4"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage7"
+        android:src="@mipmap/ic_launcher" />
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/circleImage9"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/circleImage4"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="60dip"
+        android:layout_toRightOf="@+id/circleImage8"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/abc_alpha_btn_background"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
